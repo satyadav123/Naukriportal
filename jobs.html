@@ -16,43 +16,44 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="jobs.css" />
-    <link rel="stylesheet" href="searchbar.css">
+    <link rel="stylesheet" href="searchbar.css" />
     <script
       src="https://kit.fontawesome.com/629044acfa.js"
       crossorigin="anonymous"
     ></script>
     <style>
-         #nav {
+      #nav {
         display: flex;
         width: 100%;
         min-width: 1354px;
         height: 60px;
-        justify-content: space-around;
+        justify-content: center;
         background-color: white;
+        border: 1px solid red;
       }
       .left {
         width: 15%;
         text-align: left;
         padding: 0%;
         margin-bottom: 5px;
+        /* margin-left: 200px; */
       }
-      .left img{
+      .left img {
         width: 200px;
         height: 100px;
       }
       .right {
         /* border: 1px solid green; */
         width: 80%;
-        padding-top:5px;
+        padding-top: 5px;
         text-align: center;
         margin-right: 250px;
       }
       #logo {
         height: 100%;
-       
       }
 
-         ul {
+      ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -139,16 +140,17 @@
         background: red;
         color: white;
       }
-      
     </style>
   </head>
   <body>
-     <div id="nav">
+    <div id="nav">
+      <div class="d-flex">
         <div class="left">
           <img
             id="logo"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe7IKd6HmXmjs2l0I-mFu8Vps2wALT6IHQaQ&usqp=CAU"
             alt=""
+            onclick="window.location.href='homepagesNaukri.html'"
           />
         </div>
         <div class="right">
@@ -209,10 +211,11 @@
                 <a href="#">Support</a>
               </div>
             </li>
-            <li><a class="dropbtn" href="#" >LOGIN </a></li>
-            <li style='margin-left: 109px;'>
+            <li><a class="dropbtn" href="#">LOGIN </a></li>
+            <li style="margin-left: 109px">
               <a class="dropbtn" href="#"
-                ><i class="far fa-bell fa-2x"></i><span class="badge">3</span></a
+                ><i class="far fa-bell fa-2x"></i
+                ><span class="badge">3</span></a
               >
             </li>
             <li class="dropdown">
@@ -226,6 +229,7 @@
           </ul>
         </div>
       </div>
+    </div>
     <div id="searchFilterHeader" class="w-100">
       <div class="d-flex">
         <img
@@ -243,7 +247,7 @@
     </div>
     <div id="searchbar-container">
       <div id="searchbar" class="d-flex jc-sb">
-        <div class='d-flex'>
+        <div class="d-flex">
           <img
             src="https://static.naukri.com/s/7/109/assets/images/qsb.e037c49a.png"
             alt=""
@@ -492,156 +496,135 @@
 
     <div id="footer">
       <div id="box4">
-            <div class="col">
-               <h4 class="bottomboxh4">Information</h4>
-               <h5 class="bottomh5">About Us</h5>
-               <h5 class="bottomh5">Terms & Conditions</h5>
-               <h5 class="bottomh5">Privacy Policy</h5>
-               <h5 class="bottomh5">Careers with Us</h5>
-               <h5 class="bottomh5">Sitemap</h5>
-               <h5 class="bottomh5">Contact Us</h5>
-               <h5 class="bottomh5">FAQs</h5>
-               <h5 class="bottomh5">Summons / Notices</h5>
-               <h5 class="bottomh5">Grievances</h5>
-               <h5 class="bottomh5">Fraud Alert</h5>
-               <h5 class="bottomh5">Trust and Safety</h5>
-             
+        <div class="col">
+          <h4 class="bottomboxh4">Information</h4>
+          <h5 class="bottomh5">About Us</h5>
+          <h5 class="bottomh5">Terms & Conditions</h5>
+          <h5 class="bottomh5">Privacy Policy</h5>
+          <h5 class="bottomh5">Careers with Us</h5>
+          <h5 class="bottomh5">Sitemap</h5>
+          <h5 class="bottomh5">Contact Us</h5>
+          <h5 class="bottomh5">FAQs</h5>
+          <h5 class="bottomh5">Summons / Notices</h5>
+          <h5 class="bottomh5">Grievances</h5>
+          <h5 class="bottomh5">Fraud Alert</h5>
+          <h5 class="bottomh5">Trust and Safety</h5>
 
-             
-               <h4 class="bottomboxh4">Naukri On Mobile</h4>
-               <div id='app-stores'>
-                 <div>
-                   <img
-                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dxxHtZYli9yOzHSioD9bq_IrXjgyhA8m8KgG0fWx4At1SeGOQCsS8DIut89BpK-iUPo&usqp=CAU"
-                     alt=""
-                   />
-                 </div>
-                 <div>
-                   <img
-                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTUSY4JSJ_K9sX0qF9pQoSU6rc7dc3KGtrgl4kqQFAWkvxm4usDu_TZAH-evqZcPaSr0&usqp=CAU"
-                     alt=""
-                   />
-                 </div>
-            ` </div>
+          <h4 class="bottomboxh4">Naukri On Mobile</h4>
+          <div id="app-stores">
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dxxHtZYli9yOzHSioD9bq_IrXjgyhA8m8KgG0fWx4At1SeGOQCsS8DIut89BpK-iUPo&usqp=CAU"
+                alt=""
+              />
             </div>
-
-
-          <div class="col">
-  
-              <h4 class="bottomboxh4">Jobseekers</h4>
-              <h5 class="bottomh5">Register Now</h5>
-              <h5 class="bottomh5">Search Jobs</h5>
-              <h5 class="bottomh5">Login</h5>
-              <h5 class="bottomh5">Create Job Alerts</h5>
-              <h5 class="bottomh5">Report a Problem</h5>
-              <h5 class="bottomh5">Naukri Blogs</h5>
-              <h5 class="bottomh5">Mobile Site</h5>
-
-
-              <h4 class="bottomboxh4">Browse a Jobs</h4>
-              <h5 class="bottomh5">Browse All jobs</h5>
-              <h5 class="bottomh5">Premium MBA Jobs</h5>
-              <h5 class="bottomh5">Premium Engineering Jobs</h5>
-              <h5 class="bottomh5">Govt Jobs</h5>
-              <h5 class="bottomh5">International Jobs</h5>
-              <h5 class="bottomh5">Jobs in Golf</h5>
-              <h5 class="bottomh5">Jobs by Company</h5>
-              <h5 class="bottomh5">Jobs by Category</h5>
-              <h5 class="bottomh5">jobs by Desigination</h5>
-              <h5 class="bottomh5">Jobs by Location</h5>
-              <h5 class="bottomh5">Jobs by Skill</h5>
-        
-
-          </div>
-          <div class='col'>
-            <h4 class="bottomboxh4">Jobseekers Services</h4>
-            <h5 class="bottomh5">Priority Applicant</h5>
-            <h5 class="bottomh5">Resume Display</h5>
-            <h5 class="bottomh5">Resume Writing</h5>
-            <h5 class="bottomh5">Jobs4U</h5>
-            <h5 class="bottomh5">Recruiter Connection</h5>
-            <h5 class="bottomh5">Job Search Booster</h5>
-
-            <h4 class="bottomboxh4">Naukri Learning</h4>
-            <h5 class="bottomh5">Software and Technology</h5>
-            <h5 class="bottomh5">AI and Data science</h5>
-            <h5 class="bottomh5">Management</h5>
-            <h5 class="bottomh5">Finance</h5>
-            <h5 class="bottomh5">Creativity and Design</h5>
-            <h5 class="bottomh5">Emaerging Technologies</h5>
-            <h5 class="bottomh5">Emerging-non CS</h5>
-            <h5 class="bottomh5">Healthcare</h5>
-            <h5 class="bottomh5">Energy and Enviroment</h5>
-            <h5 class="bottomh5">Social Sciences</h5>
-            <h5 class="bottomh5">Personal Growth</h5>
-          </div>
-          <div class='col'>
-            <h4 class="bottomboxh4">Employers</h4>
-            <h5 class="bottomh5">Job Posting</h5>
-            <h5 class="bottomh5">Resume Database Access</h5>
-            <h5 class="bottomh5">Rcruiter Login</h5>
-            <h5 class="bottomh5">Naukri RMS</h5>
-            <h5 class="bottomh5">Buy Resume Packages Online</h5>
-            <h5 class="bottomh5">Transition Services</h5>
-            <h5 class="bottomh5">Report a Problem</h5>
-            <h5 class="bottomh5">Recruiter from USA, call</h5>
-            <h5 class="bottomh5">Toll Free # 1866-557-3340</h5>
-
-            <h4 class="bottomboxh4">Ambition Box</h4>
-            <h5 class="bottomh5">Interview Questions</h5>
-            <h5 class="bottomh5">About Companies</h5>
-            <h5 class="bottomh5">Share Interview Advice</h5>
-            <h5 class="bottomh5">Write Company Review</h5>
-            <h5 class="bottomh5">Company reviews</h5>
-            <h5 class="bottomh5">Company Salries</h5>
-            <br />
-
-            <p class="bottomp">Follow us</p>
-            <div class="followus">
-              <span
-                id='fb-icon'
-                class='social'>
-              </span>
-
-              <span
-                id='twitter-icon'
-                class='social'
-              >
-              </span>
-              <span
-               id='linkedin-icon'
-               class='social'>
-              </span>
-              
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTUSY4JSJ_K9sX0qF9pQoSU6rc7dc3KGtrgl4kqQFAWkvxm4usDu_TZAH-evqZcPaSr0&usqp=CAU"
+                alt=""
+              />
             </div>
+            `
           </div>
         </div>
 
-        <div id='marquee-container'>
-          <p>Partner Sites</p>
-          <marquee bahavior="scroll" direction="left" scrollamount="30">
-            <img
-              src="https://i.ibb.co/HYsvyyb/IMG-20220122-005906.jpg"
-              width="250"
-              height="80px"
-            />
+        <div class="col">
+          <h4 class="bottomboxh4">Jobseekers</h4>
+          <h5 class="bottomh5">Register Now</h5>
+          <h5 class="bottomh5">Search Jobs</h5>
+          <h5 class="bottomh5">Login</h5>
+          <h5 class="bottomh5">Create Job Alerts</h5>
+          <h5 class="bottomh5">Report a Problem</h5>
+          <h5 class="bottomh5">Naukri Blogs</h5>
+          <h5 class="bottomh5">Mobile Site</h5>
 
-            <img
-              src="https://i.ibb.co/tBQYNgM/IMG-20220122-005849.jpg"
-              width="250"
-              height="80px"
-            />
-          </marquee>
+          <h4 class="bottomboxh4">Browse a Jobs</h4>
+          <h5 class="bottomh5">Browse All jobs</h5>
+          <h5 class="bottomh5">Premium MBA Jobs</h5>
+          <h5 class="bottomh5">Premium Engineering Jobs</h5>
+          <h5 class="bottomh5">Govt Jobs</h5>
+          <h5 class="bottomh5">International Jobs</h5>
+          <h5 class="bottomh5">Jobs in Golf</h5>
+          <h5 class="bottomh5">Jobs by Company</h5>
+          <h5 class="bottomh5">Jobs by Category</h5>
+          <h5 class="bottomh5">jobs by Desigination</h5>
+          <h5 class="bottomh5">Jobs by Location</h5>
+          <h5 class="bottomh5">Jobs by Skill</h5>
         </div>
+        <div class="col">
+          <h4 class="bottomboxh4">Jobseekers Services</h4>
+          <h5 class="bottomh5">Priority Applicant</h5>
+          <h5 class="bottomh5">Resume Display</h5>
+          <h5 class="bottomh5">Resume Writing</h5>
+          <h5 class="bottomh5">Jobs4U</h5>
+          <h5 class="bottomh5">Recruiter Connection</h5>
+          <h5 class="bottomh5">Job Search Booster</h5>
 
-        <div id='copyrights'>
-          <p>All rights reserved @ 2022 Info Edge (India) Ltd.</p>
+          <h4 class="bottomboxh4">Naukri Learning</h4>
+          <h5 class="bottomh5">Software and Technology</h5>
+          <h5 class="bottomh5">AI and Data science</h5>
+          <h5 class="bottomh5">Management</h5>
+          <h5 class="bottomh5">Finance</h5>
+          <h5 class="bottomh5">Creativity and Design</h5>
+          <h5 class="bottomh5">Emaerging Technologies</h5>
+          <h5 class="bottomh5">Emerging-non CS</h5>
+          <h5 class="bottomh5">Healthcare</h5>
+          <h5 class="bottomh5">Energy and Enviroment</h5>
+          <h5 class="bottomh5">Social Sciences</h5>
+          <h5 class="bottomh5">Personal Growth</h5>
+        </div>
+        <div class="col">
+          <h4 class="bottomboxh4">Employers</h4>
+          <h5 class="bottomh5">Job Posting</h5>
+          <h5 class="bottomh5">Resume Database Access</h5>
+          <h5 class="bottomh5">Rcruiter Login</h5>
+          <h5 class="bottomh5">Naukri RMS</h5>
+          <h5 class="bottomh5">Buy Resume Packages Online</h5>
+          <h5 class="bottomh5">Transition Services</h5>
+          <h5 class="bottomh5">Report a Problem</h5>
+          <h5 class="bottomh5">Recruiter from USA, call</h5>
+          <h5 class="bottomh5">Toll Free # 1866-557-3340</h5>
+
+          <h4 class="bottomboxh4">Ambition Box</h4>
+          <h5 class="bottomh5">Interview Questions</h5>
+          <h5 class="bottomh5">About Companies</h5>
+          <h5 class="bottomh5">Share Interview Advice</h5>
+          <h5 class="bottomh5">Write Company Review</h5>
+          <h5 class="bottomh5">Company reviews</h5>
+          <h5 class="bottomh5">Company Salries</h5>
+          <br />
+
+          <p class="bottomp">Follow us</p>
+          <div class="followus">
+            <span id="fb-icon" class="social"> </span>
+
+            <span id="twitter-icon" class="social"> </span>
+            <span id="linkedin-icon" class="social"> </span>
+          </div>
         </div>
       </div>
 
+      <div id="marquee-container">
+        <p>Partner Sites</p>
+        <marquee bahavior="scroll" direction="left" scrollamount="30">
+          <img
+            src="https://i.ibb.co/HYsvyyb/IMG-20220122-005906.jpg"
+            width="250"
+            height="80px"
+          />
+
+          <img
+            src="https://i.ibb.co/tBQYNgM/IMG-20220122-005849.jpg"
+            width="250"
+            height="80px"
+          />
+        </marquee>
       </div>
-  
-    
+
+      <div id="copyrights">
+        <p>All rights reserved @ 2022 Info Edge (India) Ltd.</p>
+      </div>
+    </div>
   </body>
   <script src="jobData.js"></script>
   <script src="jobs.js"></script>
