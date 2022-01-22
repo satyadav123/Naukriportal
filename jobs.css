@@ -133,7 +133,8 @@ body {
 
 #featured {
   width: 350px;
-  margin: 10px;
+  margin: 20px;
+  
 }
 
 #recmd-reg{
@@ -142,6 +143,7 @@ body {
   position: sticky;
   top: 200px;
   background-color: white;
+  z-index: 2;
 
 }
 
@@ -270,6 +272,8 @@ body {
 #featured-comp{
   padding: 20px;
   background-color: white;
+  position: relative;
+  top: 80px
 
 }
 #company-container{
