@@ -1,6 +1,12 @@
 var filter = JSON.parse(localStorage.getItem("filter"));
 var jobCardsContainer = document.getElementById("jobCardsContainer");
 var locationFilter = document.getElementById("locationsFilter");
+renderData(Jobs);
+
+if(filter){
+  processFilter(filter);
+  localStorage.removeItem('filter');
+}
 
 
 
@@ -48,15 +54,23 @@ options.forEach(function (el) {
   freshness.append(option);
 });
 
-renderData(Jobs);
 
-// processFilter({location:'Noida'});
+// processFilter({location:'Mumbai'});
 function processFilter(filter) {
-  var flitered_data = Jobs.filter(function (el) {
-    return el.location == filter.location;
-  });
-  console.log(flitered_data);
-  renderData(flitered_data);
+  let f_data = Jobs;
+  console.log(filter)
+  for(key in filter){
+    if(key == 'location'){
+      f_data = f_data.filter(function(el){return el.location == filter[key]})
+      document.getElementById('filterKey').textContent = filter[key];
+    }
+    if(key=='freshness'){
+      console.log('freshness');
+    }
+  }
+
+  console.log(f_data);
+  renderData(f_data);
 }
 
 function renderData(data) {
