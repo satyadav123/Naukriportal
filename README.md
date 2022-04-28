@@ -46,7 +46,11 @@ Nuakri.com is a very famous site for finding a relevant job according to your sk
 
 ## Screenshots :- 
 ![Paytm-mall](https://miro.medium.com/max/1400/1*QCylTwol_8WSqW5HfgaCSw.png)
-![items](https://miro.medium.com/max/1400/1*C1pheoraT1r8qQ01gENj0A.png)
+![items](https://miro.medium.com/max/1400/1*C1pheoraT1r8qQ01gENj0A.png)![items](https://miro.medium.com/max/1400/1*C1pheoraT1r8qQ01gENj0A.png)
+
+![items](https://miro.medium.com/max/1400/1*y4u8oZpjtNf-4i_1lRryag.png)
+![items](https://miro.medium.com/max/1400/1*febVWoaYlJugkbkVjyNlgw.png)
+
 
 ## For more details, here is our blog
 [Blog](https://medium.com/@arakr0436/how-we-build-the-naukri-com-clone-cf9a596c6095)
