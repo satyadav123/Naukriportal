@@ -34,7 +34,7 @@ Nuakri.com is a very famous site for finding a relevant job according to your sk
 
 - `Landing Page`: Navbars, categories and footer section.
 - `Sign-In Page`: User confirmation to check whether user email and password match with details existing in the database.
- - `Filter page`: On this page filter job section according to your requirement.
+ - `Filter page`: User can filter the job according to requirements.
 - `Job Page`: On this page you can find job in popular city.
 
 
